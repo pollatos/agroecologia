@@ -1,9 +1,9 @@
 ---
-title: Mapa de asistencia a las víctimas
+title: Sistema de Información Agroecológica
 ---
 %header.row
   .twelve.columns
-    %h2.main-title Asistencia a las víctimas
+    %h2.main-title Sistema de Información Agroecológica
 .row
   .four.columns
     .row
@@ -22,14 +22,14 @@ title: Mapa de asistencia a las víctimas
     .row
       .twelve.columns#results.results
         %p
-          Si fuiste víctima de violencia policial o de algún agente estatal, si sufriste abusos graves contra tu integridad, estás en riesgo o viviste un hecho traumático, el Estado Nacional pone a tu alcance y el de tu entorno social una completa guía de servicios gratuitos de asistencia a la víctima. Muchos los brinda el Estado nacional, provincias y municipios, pero también universidades públicas y privadas, ONGs y colegios profesionales en diferentes puntos del país. Buscá el más próximo a donde estás. Entre todos te vamos a ayudar.
+          DESCRIPCIÓN DE LA APLICACIÓN.
         %h4 Pasos
         %ol
-          %li Ingresa tu localización (escribe una dirección postal y localidad para ver los servicios más cercanos a tu domicilio).
+          %li Ingresa tu localización (escribe una dirección postal y localidad para ver los productores más cercanos a tu domicilio).
           %li
-            Escoge el tipo de asistencia
+            Escoge el tipo
           %li
-            Selecciona el centro de ayuda y lee atentamente la información del servicio, requisitos, condiciones, datos de contacto y horarios de atención.
+            Selecciona el productor para consultar el detalle de su producción y datos por él informados.
   .eight.columns.mobile-four
     %dl.tabs
       %dd.active
@@ -55,73 +55,51 @@ title: Mapa de asistencia a las víctimas
             %h2
               Proyecto
             %p
-              Desde el Programa Nacional de Lucha Contra la Impunidad (Pronalci), de la Secretaría de Derechos Humanos de la Nación, se comenzó a construir una base de datos enfocada inicialmente en los servicios gratuitos de patrocinio jurídico y asistencia psicológica, por ser éstos las principales demandas de las víctimas. En su gran mayoría los brinda el Estado nacional, provincias y municipios, pero por sobre todo las universidades públicas y privadas, ONGs y colegios profesionales en diferentes ciudades y localidades del país.
-            %p
-              Inicialmente podrás localizar aquellos servicios que brindan patrocinio jurídico y asistencia psicológica cerca de tu localización o domicilio. Poco a poco, la base de datos se irá actualizando con nuevos servicios como mediación, asistencia social, etc.
-            %p
-              El proyecto apunta a la víctima, su familia y/o amigos que necesiten encontrar la asistencia más próxima a su localización y las instituciones gubernamentales y no gubernamentales que las ofrecen, como por ejemplo las secretarías de derechos humanos municipales y provinciales, ONGs, hospitales, universidades, etc.
-            %p
-              Para dar de alta un servicio la institución interesada deberá agregarla a la base de datos con toda la información requerida y el Pronalci se encargará de certificar y validar el registro correspondiente.
+              Existe una creciente demanda social acerca de los productos agroecológicos debido a la contaminación que producen los agroquímicos en suelos, aire, agua, fauna, flora y en la población en general.
             %h4
-              Fundamentos
+              Objetivos
             %p
-              Las víctimas son el eslabón más delgado del sistema de justicia. No importa si son víctimas de violencia policial, institucional, de derechos humanos o incluso de tránsito o abusos graves contra la integridad. En todos los casos, son ciudadanos y familias enteras que al hecho traumático de sufrir la violencia se le suma el padecimiento de no saber a dónde acudir, y con ello a un gran número de circunstancias que las revictimizan.
-            %p
-              Es un hecho que las víctimas y sus familias deambulan por las oficinas públicas pidiendo ayuda y asistencia. Sus problemas son conocidos: no tienen abogado y mucho menos cómo pagarlo, necesitan contención para afrontar el trauma, perdieron su trabajo por ocuparse del caso judicial, reclaman una investigación imparcial y no cuentan con peritos calificados, el poco dinero que tienen se esfuma entre viáticos de una oficina a otra, en sostener a sus familias, etc.
-            %p
-              Tener un buen asesoramiento jurídico, contención psicológica, asistencia social y otros tipos de ayudas son determinantes para quienes padecen la violencia. Y más aún si las víctimas no tienen los recursos apropiados para hacerle frente a la impunidad del que perpetra la violencia, y más aún si ésta es institucional.
-            %p
-              Ante un hecho de violencia, el desconocimiento de qué buscar, cómo hacerlo o dónde acudir es la primera problemática con la que se encuentran muchas de las víctimas, sus familiares y entorno social.
+              Relevar los sistemas de producción agroecológica en Argentina. De esta manera la información recabada permitirá a la población tener conocimiento de los emprendimientos más próximos a su domicilio.
             %h4
               Datos técnicos
             %p
-              El dataset fue generado por el Pronalci en Google Fusiontables. La utilización de la API de Google Maps y la geolocalización implementada en esta aplicación para navegadores tanto en dispositivos móviles como de escritorio permite encontrar los servicios de asistencia a la víctima más próximos, reduciendo el tiempo que los afectados pierden hasta encontrar la ayuda que necesitan.
+              Esta aplicación web muestra el resultado de los datos cargados en el formulario y genera un  set de datos en Google Fusiontables. La utilización de la API de Google Maps y la geolocalización implementada en esta aplicación para navegadores tanto en dispositivos móviles como de escritorio permite encontrar los productores agroecológicos más próximos.
             %p
-              Este es un proyecto de OpenData, de actualización distribuida y de desarrollo colaborativo ya que el alcance de la base de datos depende de las propias entidades que ofrecen este tipo de servicios.
+              Este es un proyecto de OpenData, de actualización distribuida y de desarrollo colaborativo ya que el alcance de la base de datos depende de los propios productores.
             %p
               La aplicación comenzó a realizarse en el hackatón "
-              %a{:href => "http://2012.desarrollandoamerica.org/argentina/"}
-                Desarrollando América Latina 2012
-              " celebrado los días 1 y 2 de diciembre de 2012 en el Centro Cultural General San Martín y recibió el tercer premio entre 11 proyectos de carácter social que abarcaban diferentes temas como: cambio climático, ciudad, medioambiente, transporte, salud, transparencia, derechos de los niños, educación y seguridad ciudadana, entre otros.
+              %a{:href => "http://agrodatos.info/"}
+                Agrodatos 2" realizado en agosto de 2015 en la Universidad Nacional de Córdoba.
             %p
-              Si tenés alguna duda o sugerencia, contactate con el Pronalci al 0800-122-5878 o por mail a
-              %a{:href => "mailto:pronalci@jus.gov.ar"}
-                pronalci@jus.gov.ar
+              Si tiene alguna duda o sugerencia, contactate con al administrador por mail a
+              %a{:href => "mailto:pollatos@gmail.com"}
+                pollatos@gmail.com
       %li#simple4Tab.team
         .row.member
           .twelve.columns.mobile-four
             %p
-              Las personas que desarrollan y mantienen esta aplicación son miembros de la comunidad
-              = link_to "HacksHackers Buenos Aires", "http://www.meetup.com/HacksHackersBA/"
-              , un colectivo de periodistas, programadores, diseñadores y cientistas sociales que exploran nuevas formas interactivas de comunicación
+              Las personas que desarrollan y mantienen esta aplicación son: 
         .row.member
           .two.columns.mobile-one
             = link_to image_tag("pollatos.jpg"), "https://twitter.com/pollatos"
           .ten.columns.mobile-three
             %a{:href => "http://pollatos.wordpress.com/"} Sergio Sorin
             %br/
-            Periodista y encargado de comunicación del Programa Nacional de Lucha Contra la Impunidad
+            Periodista y hacktivista de datos
         .row.member
           .two.columns.mobile-one
-            = link_to image_tag("alegranza.jpg"), "https://twitter.com/alegranza_a"
+            = link_to image_tag("Gustavo.jpg"), "https://twitter.com/gus0305"
           .ten.columns.mobile-three
-            %a{:href => "https://twitter.com/alegranza_a"} Aránzazu Sánchez
+            %a{:href => "https://twitter.com/gus0305"} Gustavo Kocsis
             %br/
-            Ingeniera
+            Ingeniero Agrónomo
         .row.member
           .two.columns.mobile-one
-            = link_to image_tag("malev.png"), "https://twitter.com/malev"
+            = link_to image_tag("Carmen.png"), "#"
           .ten.columns.mobile-three
-            %a{:href => "https://twitter.com/malev"} Marcos Vanetta
+            %a{:href => "mailto:carmenmati@gmail.com"} Cármen Cabanillas
             %br/
-            Ingeniero de Software
-        .row.member
-          .two.columns.mobile-one
-            = link_to image_tag("tania.jpeg", :size => "128x128"), "https://twitter.com/latanitaw"
-          .ten.columns.mobile-three
-            %a{:href => "https://twitter.com/latanitaw"} taniaw
-            %br/
-            Diseñadora gráfica
+            Ingeniera Agrónoma y Magister en Ingeniería Ambiental
 %script#infowindowTemplate{:type => "text/template"}
   :plain
     <section class='infowindow'>
@@ -161,7 +139,7 @@ title: Mapa de asistencia a las víctimas
   :plain
     <h4>Resultados (<%= results.length %>)</h4>
     <% if (results.length === 0) { %>
-      <i>En esta localización no hay servicios disponibles por el momento</i>
+      <i>En esta localización no hay información disponibles por el momento</i>
     <% } %>
     <% _.each(results, function(result){ %>
       <% if(result.hasOwnProperty("partial") && result.partial === "address"){ %>
